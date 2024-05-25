@@ -1,0 +1,10 @@
+@use "@angular/material" as mat;
+:host {
+  svg {
+    width: 270px;
+    fill: #c2185b;
+    image {
+      width: 240px;
+    }
+  }
+}

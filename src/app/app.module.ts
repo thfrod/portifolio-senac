@@ -8,9 +8,10 @@ import { AppComponent } from "./app.component";
 import { NavbarComponent } from "./components/navbar/navbar.component";
 import { HomeComponent } from "./home/home.component";
 import { MaterialModule } from "./material.module";
+import { ProfileComponent } from './components/profile/profile.component';
 
 @NgModule({
-  declarations: [AppComponent, NavbarComponent, HomeComponent, AboutComponent],
+  declarations: [AppComponent, NavbarComponent, HomeComponent, AboutComponent, ProfileComponent],
   imports: [MaterialModule, BrowserModule, AppRoutingModule],
   providers: [provideAnimationsAsync()],
   bootstrap: [AppComponent],

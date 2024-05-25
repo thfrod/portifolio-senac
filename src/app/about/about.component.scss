@@ -1,0 +1,19 @@
+:host {
+  display: block;
+  width: 100%;
+
+  .about__info--title {
+    font-size: 1.25rem;
+    font-weight: 600;
+  }
+
+  .about__info--name {
+    font-size: 1rem;
+  }
+
+  .about__info--title,
+  .about__info--name {
+    display: block;
+    text-align: center;
+  }
+}
